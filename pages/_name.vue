@@ -7,7 +7,11 @@
 
 <template>
 <div>
-  <nuxt-link :to="'/' + name">{{ name }}</nuxt-link>
+  <div>Now on /{{ name }}</div>
+  <br>
+  <nuxt-link to="/test">Go to /test</nuxt-link>
+  <br>
+  <nuxt-link to="/测试">Go to /测试</nuxt-link>
 </div>
 </template>
 
